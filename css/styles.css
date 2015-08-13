@@ -21,6 +21,7 @@ h1{
   display: inline;
   float: right;
   padding-top: 25px;
+  position: fixed;
 }
 a{
   background-color: rgba(178, 0, 0, 0.5);
@@ -79,5 +80,6 @@ h6{
 }
 .back{
   position fixed;
-  padding-top: 200px;
+  padding-top: 2px;
+  float: left;
 }
