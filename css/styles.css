@@ -1,0 +1,83 @@
+body{
+  background-color: rgba(225, 0, 0, 0.5);;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: stretch;
+}
+.topbar{
+  background-color: rgba(12, 0, 120, 0.5);
+  padding-top: 0px;
+  height: 100px;
+  margin-top: -20px;
+  margin: -20px -10px;
+  z-index: 2;
+  text-align: center;
+}
+h1{
+  display: inline-block;
+}
+.navigation{
+  display: inline;
+  float: right;
+  padding-top: 25px;
+}
+a{
+  background-color: rgba(178, 0, 0, 0.5);
+  border: none;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgba(0,20,0, 0.3);
+  padding: 5px;
+}
+.pixel{
+  padding: 20px;
+  width: 940px;
+  font-size: 30px;
+  border: 2px dotted gray;
+  margin: auto;
+  margin-top: 30px;
+  background-color: gray;
+
+}
+.point{
+  padding: 20pt;
+  width: 940pt;
+  font-size: 30pt;
+  border: 2pt dotted gray;
+  margin: auto;
+  margin-top: 30pt;
+  background-color: gray;
+
+}
+.em{
+font-size: 2em;
+background-color: rgba(0, 0, 0, 0.5);
+margin: 5em;
+color: rgba(255, 255, 255, 0.5);
+padding: 1em;
+}
+h6{
+  color: #173325;
+}
+.percent{
+  padding: 10%;
+  width: 55%;
+  font-size: 120%;
+  border: 2% dotted gray;
+  margin: 12%;
+  margin-top: 20%;
+  background-color: skyblue;
+}
+.rem{
+  font-size: 3rem;
+  background-color: rgba(22, 13, 31, 0.5);
+  margin: 5rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+}
+.back{
+  position fixed;
+  padding-top: 200px;
+}
